@@ -3,7 +3,7 @@
 GeeksforGeeks Solutions using Java&Javascript<br/>
 By Jin Wang
 
-## Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe, …
+- [x] ## Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe, …
 
 As the placement season is back so are we to help you ace the interview. We have selected some most commonly asked and must do practice problems for you.
 
@@ -13,20 +13,20 @@ Note : Now you can track your progress of these questions Must Do Interview Prep
 
 Topic :
 
-Arrays
-String
-Linked List
-Stack and Queue
-Tree and BST
-Heap
-Recursion
-Hashing
-Graph
-Greedy
-Dynamic Programming
-Divide and Conquer
-Backtracking
-Bit Magic
+ - Arrays
+ - String
+ - Linked List
+ - Stack and Queue
+ - Tree and BST
+ - Heap
+ - Recursion
+ - Hashing
+ - Graph
+ - Greedy
+ - Dynamic Programming
+ - Divide and Conquer
+ - Backtracking
+ - Bit Magic
 
 ### by Difficulties
 

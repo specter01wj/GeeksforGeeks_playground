@@ -24,7 +24,7 @@ Topic :
 | Recursion  | Bit Magic  |
 
 
-### by Difficulties
+### by Topic
 
 ### Naive Level
 

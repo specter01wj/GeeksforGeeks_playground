@@ -39,18 +39,24 @@ Topic :
 |7|**Number of pairs**||Java, Javascript||
 |8|**Inversion of Array**||Java, Javascript||
 |9|**Sort an array of 0s, 1s and 2s**||Java, Javascript||
-|10|**Equilibrium point**||Java, Javascript|Done/Done|
+|10|**Equilibrium point**||Java, Javascript||
 |11|**Leaders in an array**||Java, Javascript||
-|12|**Minimum Platforms**||Java, Javascript|Done|
+|12|**Minimum Platforms**||Java, Javascript||
 |13|**Reverse array in groups**||Java, Javascript||
-|14|**K’th smallest element**||Java, Javascript|Done|
-|15|**Trapping Rain Water**||Java, Javascript|Done|
+|14|**K’th smallest element**||Java, Javascript||
+|15|**Trapping Rain Water**||Java, Javascript||
 |16|**Pythagorean Triplet**||Java, Javascript||
 |17|**Chocolate Distribution Problem**||Java, Javascript||
 |18|**Stock buy and sell**||Java, Javascript||
 |19|**Element with left side smaller and right side greater**||Java, Javascript||
-|20|**Convert array into Zig-Zag fashion**||Java, Javascript|Done|
+|20|**Convert array into Zig-Zag fashion**||Java, Javascript||
 |21|**Last Index of 1**||Java, Javascript||
 |22|**Spirally traversing a matrix**||Java, Javascript||
 |23|**Largest Number formed from an Array**||Java, Javascript||
 
+
+### String
+
+| No. | Problem       | Level  | Language  | Completed|
+|:-------:|:--------------|:------:|:---------:|:-------------:|
+|1|**Reverse words in a given string**||Java, Javascript||

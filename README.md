@@ -15,7 +15,7 @@ Topic :
 
 | []() | []() |
 | :---  | :---  |
-| Arrays [x] | Hashing  |
+| [x] Arrays  | Hashing  |
 | String  | Graph  |
 | Linked List  | Greedy  |
 | Stack and Queue  | Dynamic Programming  |

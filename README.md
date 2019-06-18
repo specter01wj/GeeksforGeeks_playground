@@ -13,7 +13,7 @@ Note : Now you can track your progress of these questions Must Do Interview Prep
 
 Topic :
 
-|  |  |
+| []() | []() |
 | :---  | :---  |
 | Arrays  | Hashing  |
 | String  | Graph  |

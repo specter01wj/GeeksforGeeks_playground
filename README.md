@@ -3,7 +3,7 @@
 GeeksforGeeks Solutions using Java&Javascript<br/>
 By Jin Wang
 
-- [x] ## Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe, …
+## Must Do Coding Questions for Companies like Amazon, Microsoft, Adobe, …
 
 As the placement season is back so are we to help you ace the interview. We have selected some most commonly asked and must do practice problems for you.
 

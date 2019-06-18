@@ -13,30 +13,16 @@ Note : Now you can track your progress of these questions Must Do Interview Prep
 
 Topic :
 
-| Command | Description |
+|  |  |
 | :---  | :---  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Arrays  | Hashing  |
+| String  | Graph  |
+| Linked List  | Greedy  |
+| Stack and Queue  | Dynamic Programming  |
+| Tree and BST  | Divide and Conquer  |
+| Heap  | Backtracking  |
+| Recursion  | Bit Magic  |
 
- - Arrays
- - String
- - Linked List
- - Stack and Queue
- - Tree and BST
- - Heap
- - Recursion
- - Hashing
- - Graph
- - Greedy
- - Dynamic Programming
- - Divide and Conquer
- - Backtracking
- - Bit Magic
 
 ### by Difficulties
 

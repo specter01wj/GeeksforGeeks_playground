@@ -16,10 +16,12 @@ Output: No subarray found
 public class Subarray_with_given_sum {
 
 	public static void main(String[] args) {
+		Subarray_with_given_sum subarray_with_given_sum = new Subarray_with_given_sum();
 		int[] input = {15, 2, 4, 8, 9, 5, 10, 23};
 		int n = input.length;
 		int sum = 23;
-        int[] output = subArraySum(input, n, sum);
+		int[] output = subarray_with_given_sum.subArraySum(input, n, sum);
+//        int[] output = subArraySum(input, n, sum);
         System.out.println("input: " + Arrays.toString(input) + "\noutput: " + Arrays.toString(output));
 	}
 	

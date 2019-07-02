@@ -2,7 +2,7 @@ package com.Count_the_triplets;
 
 import java.util.*;
 
-/*Given an array of integers you have to find three numbers such that sum of two elements equals the third element.
+/*/*Given an array of integers you have to find three numbers such that sum of two elements equals the third element.
 
 Examples:
 
@@ -15,7 +15,7 @@ Output : no such triplet exist*/
 public class Count_the_triplets {
 
 	public static void main(String[] args) {
-		int[] input = { 5, 32, 1, 7, 10, 50, 19, 21, 2 }; 
+		int[] input = {5, 32, 1, 7, 10, 50, 19, 21, 2}; 
         int n = input.length; 
         List<Integer> output = findTriplet(input, n); 
         System.out.println("input: " + Arrays.toString(input) + "\noutput: " + (output));

@@ -47,7 +47,7 @@ public class Count_the_triplets {
 	/*
      * @param arr: a list of integers
      * @return: list of three numbers such that sum of two elements 
-     * equals the third element
+     			equals the third element
      */
 	public static List<Integer> findTriplet(int[] arr, int n) { 
         // sort the array 

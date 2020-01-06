@@ -10,8 +10,6 @@ Examples:
 Input : {-2, -3, 4, -1, -2, 1, 5, -3}
 Output : 4
 
-
-
  */
 
 public class Kadanes_Algorithm {

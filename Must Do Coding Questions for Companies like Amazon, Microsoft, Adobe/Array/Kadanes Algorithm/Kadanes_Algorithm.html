@@ -4,59 +4,46 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script>
 			/*
-			 	Given an array of integers you have to find three numbers such that sum of two elements equals the third element.
-
+			 	Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+ 
 				Examples:
 
-				Input : {5, 32, 1, 7, 10, 50, 19, 21, 2}
-				Output : 21, 2, 19
-
-				Input : {5, 32, 1, 7, 10, 50, 19, 21, 0}
-				Output : no such triplet exist
+				Input : {-2, -3, 4, -1, -2, 1, 5, -3}
+				Output : 4
 			 */
 			$(document).ready(function(){
 				
 				/*
 			     * @param arr: a list of integers
-			     * @return: list of three numbers such that sum of two elements 
-			     * equals the third element
+			     * @return: the sum of contiguous subarray within a one-dimensional array 
+			     			of numbers which has the largest sum
 			     */
-				var findTriplet = function(arr, n) {
-					// sort the array 
-			        arr.sort(function(a, b){return a-b});
-			        var result = [];
-			        
-			        // for every element in arr 
-			        // check if a pair exist(in array) whose 
-			        // sum is equal to arr element 
-			        for(var i = n - 1; i >= 0; i--) { 
-			            var j = 0; 
-			            var k = i - 1; 
-			            
-			            while(j < k) { 
-			                if(arr[i] == arr[j] + arr[k]) { 
-			  
-			                    // pair found 
-			                    result.push(arr[i]);
-			                    result.push(arr[j]);
-			                    result.push(arr[k]);
-			  
-			                    return result; 
-			                } else if (arr[i] > arr[j] + arr[k]) {
-			                    j += 1; 
-			                } else {
-			                    k -= 1;
-			                }
-			            } 
-			        } 
-			  
-			        // no such triplet is found in array 
-			        return result; 
+				var maxSubArraySum = function(arr) {
+					var size = arr.length;
+					var max_so_far = Number.MIN_VALUE, max_ending_here = 0;
+					var start = 0, end = 0, s = 0;
+					
+					for(var i = 0; i < size; i++) {
+						max_ending_here = max_ending_here + arr[i];
+						if(max_so_far < max_ending_here) {
+							max_so_far = max_ending_here;
+							start = s;
+							end = i;
+						}
+						if(max_ending_here < 0) {
+							max_ending_here = 0;
+							s = i + 1;
+						}
+					}
+					
+					console.log("Starting index " + start); 
+			        console.log("Ending index " + end); 
+					
+			        return max_so_far; 
 				};
 
-				var nums = [5, 32, 1, 7, 10, 50, 19, 21, 2];
-				var n = nums.length;
-				var tt1 = findTriplet(nums, n);
+				var nums = [-2, -3, 4, -1, -2, 1, 5, -3];
+				var tt1 = maxSubArraySum(nums);
 				$('#t1').html('<h2>Inputs: ' + nums + '<br>Results: ' + tt1 + '</h2>');
 			});
 				

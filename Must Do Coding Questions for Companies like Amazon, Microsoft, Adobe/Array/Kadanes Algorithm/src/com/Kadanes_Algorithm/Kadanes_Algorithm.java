@@ -26,7 +26,11 @@ public class Kadanes_Algorithm {
 	
 	/*
     solution:
-    
+    Simple idea of the Kadane’s algorithm is to look for all positive contiguous segments 
+    of the array (max_ending_here is used for this). And keep track of maximum sum 
+    contiguous segment among all positive segments (max_so_far is used for this). 
+    Each time we get a positive sum compare it with max_so_far and update max_so_far 
+    if it is greater than max_so_far
     */
 	
 	/*
@@ -37,16 +41,23 @@ public class Kadanes_Algorithm {
 	public static int maxSubArraySum(int arr[]) {
 		int size = arr.length;
 		int max_so_far = Integer.MIN_VALUE, max_ending_here = 0;
+		int start = 0, end = 0, s = 0;
 		
 		for(int i = 0; i < size; i++) {
 			max_ending_here = max_ending_here + arr[i];
 			if(max_so_far < max_ending_here) {
 				max_so_far = max_ending_here;
+				start = s;
+				end = i;
 			}
 			if(max_ending_here < 0) {
 				max_ending_here = 0;
+				s = i + 1;
 			}
 		}
+		
+		System.out.println("Starting index " + start); 
+        System.out.println("Ending index " + end); 
 		
 		return max_so_far;
 	}

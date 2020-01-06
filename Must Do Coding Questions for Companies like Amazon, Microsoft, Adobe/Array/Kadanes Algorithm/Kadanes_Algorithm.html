@@ -49,24 +49,12 @@
 				
 			/*
 		    solution:
-		    Simple approach: Run three loops and check if there exists a triplet such that 
-		    sum of two elements equals the third element.
-			
-			Time complexity: O(n^3)
-			
-			Efficient approach : The idea is similar to Find a triplet that sum to a given value.
-			
-			Sort the given array first.
-			Start fixing the greatest element of three from back and traverse the array to find 
-			other two numbers which sum upto the third element.
-			Take two pointers j(from front) and k(initially i-1) to find the smallest of the two 
-			number and from i-1 to find the largest of the two remaining numbers
-			If the addition of both the numbers is still less than A[i], then we need to increase 
-			the value of the summation of two numbers, thereby increase the j pointer, so as to 
-			increase the value of A[j] + A[k].
-			If the addition of both the numbers is more than A[i], then we need to decrease the 
-			value of the summation of two numbers, thereby decrease the k pointer so as to 
-			decrease the overall value of A[j] + A[k].
+		    
+			    Simple idea of the Kadane’s algorithm is to look for all positive contiguous segments 
+			    of the array (max_ending_here is used for this). And keep track of maximum sum 
+			    contiguous segment among all positive segments (max_so_far is used for this). 
+			    Each time we get a positive sum compare it with max_so_far and update max_so_far 
+			    if it is greater than max_so_far
 			*/
 				
 

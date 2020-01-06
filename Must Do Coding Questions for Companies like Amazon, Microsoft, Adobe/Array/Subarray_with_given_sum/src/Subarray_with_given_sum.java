@@ -1,6 +1,7 @@
 import java.util.*;
 
-/*Given an unsorted array of nonnegative integers, find a continous subarray which adds to a given number.
+/*Given an unsorted array of nonnegative integers, find a continous subarray 
+which adds to a given number.
 Examples :
 
 Input: arr[] = {1, 4, 20, 3, 10, 5}, sum = 33

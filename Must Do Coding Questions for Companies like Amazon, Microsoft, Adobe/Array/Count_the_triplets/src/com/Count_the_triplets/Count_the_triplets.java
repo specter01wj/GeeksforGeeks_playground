@@ -2,7 +2,8 @@ package com.Count_the_triplets;
 
 import java.util.*;
 
-/*/*Given an array of integers you have to find three numbers such that sum of two elements equals the third element.
+/*Given an array of integers you have to find three numbers such that 
+sum of two elements equals the third element.
 
 Examples:
 
